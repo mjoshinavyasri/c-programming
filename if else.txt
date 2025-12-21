@@ -1,0 +1,234 @@
+
+1. #include <stdio.h>
+int main() 
+{
+ int a;
+ scanf("%d",&a);
+ if(a%2==0)
+ {
+     printf("even");
+ }
+ else
+ {
+     printf("odd");
+ }
+    return 0;
+}
+
+
+2. #include <stdio.h>
+int main() 
+{
+ int a;
+ scanf("%d",&a);
+ if(a>0)
+ {
+     printf("positive");
+ }
+ if(a<0)
+ {
+     printf("negative");
+ }
+ else
+ {
+     printf("zero");
+ }
+    return 0;
+}
+ 
+3. #include <stdio.h>
+int main() 
+{
+ int a,b;
+ scanf("%d%d",&a,&b);
+ if(a>b)
+ {
+     printf("a is greater");
+ }
+ else
+ {
+     printf("b is greater");
+}
+    return 0;
+}
+
+
+4. #include <stdio.h>
+int main() 
+{
+ int age;
+ scanf("%d",&age);
+ if(age>18)
+ {
+     printf("eligible");
+ }
+ else
+ {
+     printf("not eligible");
+ }
+    return 0;
+}
+
+
+5.#include <stdio.h>
+int main() 
+{
+ int marks;
+ scanf("%d",&marks);
+ if(marks>40)
+ {
+     printf("pass");
+ }
+ else
+ {
+     printf("fail");
+ }
+    return 0;
+}
+
+
+6. #include <stdio.h>
+int main() 
+{
+ int a;
+ scanf("%d",&a);
+ if(a%5==0)
+ {
+     printf("yes");
+ }
+ else
+ {
+     printf("no");
+ }
+    return 0;
+}
+
+
+7. #include <stdio.h>
+int main() 
+{
+ int year;
+ scanf("%d",&year);
+ if(year%4==0)
+ {
+     printf("leap year");
+ }
+ else
+ {
+     printf("not leap year");
+ }
+    return 0;
+}
+
+
+8. #include <stdio.h>
+int main() 
+{
+ int a,b,c;
+ scanf("%d %d %d",&a,&b,&c);
+ if(a>b&&a>c)
+ {
+     printf("a is greater");
+ }
+ if(b>c)
+ {
+     printf("b is greater");
+ }
+ else
+ {
+     printf("c is greater");
+ }
+    return 0;
+}
+
+
+9. #include <stdio.h>
+int main() 
+{
+ char ch;
+ scanf("%c",&ch);
+ if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+ {
+     printf("vowel");
+ }
+ else
+ {
+     printf("consonent");
+ }
+    return 0;
+}
+
+
+10. #include <stdio.h>
+int main() 
+{
+ int t;
+ scanf("%d",&t);
+ if(t>30)
+ {
+     printf("hot");
+ }
+ else
+ {
+     printf("normal");
+ }
+    return 0;
+}
+
+
+11. #include <stdio.h>
+
+int main()
+{
+    int n;
+    scanf("%d",&n);
+if(n>=-9 && n<=9)
+{
+    printf("single digit");
+}
+else
+{
+    printf("not a single digit");
+}
+    return 0;
+}
+
+
+
+12. #include <stdio.h>
+
+int main()
+{
+    int s;
+    scanf("%d",&s);
+if(s>=20000)
+{
+    int b=s+2000;
+    printf("%d",bonus);
+}
+else
+{
+  int b=s+1000;
+    printf("%d",bonus);
+}
+    return 0;
+}
+
+
+
+13. #include <stdio.h>
+
+int main()
+{
+    int a;
+    scanf("%d",&a);
+if(a%2==0 && a%3==0)
+{
+    printf("yes");
+}
+else
+{
+  printf("no");
+}
+    return 0;
+}
