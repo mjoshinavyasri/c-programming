@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+int size,i;
+scanf("%d",&size);
+ int sum=0,avg;
+int a[size];
+for( i=0;i<size;i++)
+{
+scanf("%d",&a[i]);
+
+sum+=a[i];
+  avg=sum/size;
+}
+    printf("%d",avg);
+return 0;
+}
