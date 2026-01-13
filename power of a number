@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+ int base,exp;
+ long long r=1;
+    scanf("%d%d",&base,&exp);
+    while(exp > 0)
+    {
+        r=r*base;
+    exp--;
+    }
+    printf("%lld",r);
+}
