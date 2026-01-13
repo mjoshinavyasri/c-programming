@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+    int b,d=0;
+    int base=1;
+    scanf("%d",&b);
+    while(b>0)
+    {
+    int rem=b%10;
+     d=d+rem*base;
+    base=base*2;
+    b=b/10;
+      
+    }
+       printf("%d ",d);
+    return 0;
+}
