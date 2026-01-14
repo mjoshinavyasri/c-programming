@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char ch[200], largest[50],word[50];
+    int i, j=0,max=0;
+    fgets(ch, 200, stdin);
+    for (i = 0; ch[i]; i++) {
+        if (ch[i] != ' ' && ch[i] != '\n') {
+            word[j++] = ch[i];
+        } else {
+            word[j] = '\0';
+            if (j > max) {
+                max=j;
+              for(int k=0;k<=j;k++)
+              largest[k]=word[k];
+            }
+            j = 0;
+        }
+    }
+    printf("largest word %s\n",largest);
+
+    return 0;
+}
