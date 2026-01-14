@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include<string.h>
+int main() {
+    int i,j,count=0;
+   char a[50],b[50];
+   scanf("%s %s",a,b);
+   for(i=0;i<a[i];i++)
+   {
+    for(j=0;j<a[i];j++)   
+    {
+        if(a[i]==b[j])
+        {
+             count++;
+          
+            break;
+        }
+    }
+   }
+   if(count==i)
+   printf("anagram");
+   else
+   printf("not anagram");
+    return 0;
+}
