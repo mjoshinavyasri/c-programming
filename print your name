@@ -1,0 +1,5 @@
+#include <stdio.h>
+int main() {
+    printf("joshi navya sri");
+    return 0;
+}
