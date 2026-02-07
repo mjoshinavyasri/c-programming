@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main() {
+    int a,s,b;
+    scanf("%d%d%d",&a,&s,&b);
+   switch (s) {
+       case 1:
+           printf("%d",a+b);
+           break;
+       case 2:
+           printf("%d",a-b);
+           break;
+       case 3:
+           printf("%d",a*b);
+           break;
+       case 4:
+           printf("%d",a/b);
+           break;
+       default:
+           printf("invalid choice");
+   }
+    return 0;
+}
