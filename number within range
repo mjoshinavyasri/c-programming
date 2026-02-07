@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main() {
+    int b,c,n;
+    scanf("%d%d%d",&b,&c,&n);
+   if (n>=b && n<=c ) {
+       printf("number within the range");
+   }
+    else   {
+        printf("number is not in the range");
+    }
+    return 0;
+}
