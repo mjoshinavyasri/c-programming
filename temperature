@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main() {
+    int n;
+    scanf("%d",&n);
+    if (n<20)
+        {
+        printf("cold");
+        }
+    else if (n>=20 && n<=30) {
+        printf("normal");
+    }
+    else {
+        printf("hot");
+    }
+    return 0;
+}
