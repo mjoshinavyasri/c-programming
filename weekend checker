@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main() {
+    int n;
+    scanf("%d450",&n);
+    if (n>=1 && n<=5)
+        {
+        printf("weekday");
+        }
+    else if (n>=6 && n<=7) {
+        printf("weeekend");
+    }
+    else {
+        printf("invalid number");
+    }
+    return 0;
+}
