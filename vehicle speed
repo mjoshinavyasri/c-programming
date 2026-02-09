@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main() {
+    int n;
+    scanf("%d450",&n);
+    if (n<=80)
+        {
+        printf("within speed limit");
+        }
+    else {
+        printf("speed limit exceeded");
+    }
+    return 0;
+}
