@@ -8,6 +8,7 @@ deliverycharge=50;
         case 2:
 if (amount<1000) {
     deliverycharge=100;
+break;
 }
 else if (amount>=1000) {
     deliverycharge=0;
