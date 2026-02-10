@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main() {
+   int roomtype,season,price;
+    scanf("%d%d",&roomtype,&season);
+   switch (roomtype) {
+       case 1:
+           if (season='A') {
+           price=2500;
+           }
+           else if (season='B') {
+               price=2000;
+           }
+           break;
+       case 2:
+           if (season='C') {
+               price=4000;
+           }
+           else if (season='D') {
+               price=3000;
+           }
+           break;
+   }
+    printf("%d",price);
+    return 0;
+}
