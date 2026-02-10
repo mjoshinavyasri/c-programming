@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main() {
+   int accountype,years,interest;
+    scanf("%d%d",&accountype,&years);
+    switch (accountype) {
+        case 1:
+            interest=4;
+            break;
+        case 2:
+            if (years<=3) {
+                interest=5;
+            }
+            else if (years>3) {
+                interest=7;
+            }
+            break;
+    }
+    printf("interest=%d",interest);
+    return 0;
+}
