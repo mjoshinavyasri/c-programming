@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main() {
+   int type,experience,salary;
+    scanf("%d%d",&type,&experience);
+   switch (type) {
+       case 1:
+          salary=50000;
+           if (experience>=3) {
+               salary=salary+(experience*5000);
+           }
+           break;
+       case 2:
+salary=35000;
+           if (experience>=3) {
+               salary=salary+(experience*5000);
+           }
+           break;
+   }
+    printf("%d",salary);
+    return 0;
+}
