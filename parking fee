@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main() {
+    int type,hours,charge;
+    scanf("%d%d",&type,&hours);
+    switch (type) {
+        case 1:
+          charge=hours*10;
+            printf("%d",charge);
+    break;
+    case 2:
+                    charge=hours*20;
+                    printf("%d",charge);
+            break;
+}
+    return 0;
+}
