@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main() {
+    int booktype,days,fine;
+    scanf("%d%d",&booktype,&days);
+    switch (booktype){
+        case 1:
+   fine=days*2; ;
+    break;
+    case 2:
+    fine=days*5;
+    break;
+    default:
+    printf("invalid booktype");
+}
+    printf("fine=%d",fine);
+    return 0;
+}
