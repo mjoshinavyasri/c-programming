@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main() {
+    int type,fees;
+    scanf("%d",&type);
+    switch (type) {
+        case 1:
+            fees=1200;
+            break;
+        case 2:
+            fees=800;
+            break;
+    case 3:
+    fees=500;
+    break;
+}
+    printf("%d",fees);
+    return 0;
+}
