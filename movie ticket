@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main() {
+    int type,time,ticket;
+    scanf("%d%d",&type,&time);
+    switch (type) {
+        case 1:
+              ticket=150;
+            if (time>=18) {
+                ticket=ticket+50;
+            }
+    break;
+    case 2:
+            ticket=250;
+            if (time>=18){
+                ticket=ticket+50;
+            }
+            break;
+}
+    printf("%d",ticket);
+    return 0;
+}
