@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main() {
+    int type,total,discount=0;
+    float amount;
+    scanf("%d%f",&type,&amount);
+    switch (type) {
+        case 1:
+discount=amount*0.05;
+            total=amount-discount;
+
+            break;
+        case 2:
+            discount=amount*0.15;
+total=amount-discount;
+            break;
+    }
+    printf("%d",total);
+    return 0;
+}
