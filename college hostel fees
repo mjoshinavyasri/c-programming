@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main() {
+    int roomtype,fees;
+    scanf("%d",&roomtype);
+    switch (roomtype) {
+        case 1:
+          fees=80000;
+            break;
+        case 2:
+            fees=60000;
+            break;
+        case 3:
+            fees=453000;
+            break;
+        default:
+            printf("invalid roomtype");
+    }
+    printf("%d",fees);
+    return 0;
+}
