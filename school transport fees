@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main() {
+    int distance,cost;
+    scanf("%d",&distance);
+    switch (distance){
+        case 1:
+   cost=800;
+    break;
+    case 2:
+     cost=1200;
+    break;
+        case 3:
+            cost=1800;
+            break;
+    default:
+    printf("invalid distance");
+}
+    printf("%d",cost);
+    return 0;
+}
