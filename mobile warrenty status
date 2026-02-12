@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main() {
+    int status;
+    scanf("%d",&status);
+    switch (status){
+        case 1:
+   printf("under warrenty");
+    break;
+    case 2:
+     printf("limited warrenty");
+    break;
+        case 3:
+            printf("out of warrenty");
+            break;
+    default:
+    printf("invalid status");
+}
+    return 0;
+}
