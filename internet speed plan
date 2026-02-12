@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main() {
+    int plan,speed;
+    scanf("%d",&plan);
+    switch (plan){
+        case 1:
+   speed=40;
+    break;
+    case 2:
+speed=100;
+    break;
+        case 3:
+            speed=300;
+            break;
+    default:
+    printf("invalid plan");
+}
+    printf("%d",speed);
+    return 0;
+}
