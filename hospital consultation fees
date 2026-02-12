@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main() {
+    int doctortype,cost;
+    scanf("%d",&doctortype);
+    switch (doctortype){
+        case 1:
+   cost=500;
+    break;
+    case 2:
+     cost=1200;
+    break;
+    default:
+    printf("invalid doctortype");
+}
+    printf("%d",cost);
+    return 0;
+}
