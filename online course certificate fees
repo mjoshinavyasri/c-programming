@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main() {
+    int coursetype,cost;
+    scanf("%d",&coursetype);
+    switch (coursetype){
+        case 1:
+   cost=0;
+    break;
+    case 2:
+     cost=500;
+    break;
+    default:
+    printf("invalid coursetype");
+}
+    printf("%d",cost);
+    return 0;
+}
