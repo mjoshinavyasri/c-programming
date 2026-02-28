@@ -1,0 +1,25 @@
+
+#include<stdio.h>
+int main(){
+    int count=0;
+    int n,a,b=0;
+    scanf("%d",&n);
+    int i=0,x;
+   while (i<n){
+       scanf("%d",&x);
+       if (x>70) {
+           count++;
+           a++;
+          if (a>b) {
+              b=a;
+          }
+       }
+       else {
+           a=0;
+       }
+       i++;
+   }
+    printf("noise violation=%d\n",count);
+    printf("long violation streak=%d",b);
+    return 0;
+}
