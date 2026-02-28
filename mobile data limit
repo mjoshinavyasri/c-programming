@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+    int n,days,data,use;
+    scanf("%d",&data);
+    scanf("%d",&n);
+    int i=0;
+   while (i<n){
+       scanf("%d",&use);
+if (data<use)
+    break;
+    data=data-use;
+       days++;
+i++;
+   }
+    printf("days used=%d\n",days);
+    printf("remaining data=%d",data);
+    return 0;
+}
