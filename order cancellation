@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main(){
+    int n,x,a=0,b=0;
+    int i=0;
+    scanf("%d",&n);
+   while (i<n) {
+       scanf("%d",&x);
+       if (x==1)
+           a++;
+       else if (x==0)
+           b++;
+       i++;
+   }
+       printf("successful=%d\n",a);
+       printf("cnacelled=%d\n",b);
+
+    if (b>a)
+        printf("status:risk");
+        else
+            printf("status:safe");
+    return 0;
+}
