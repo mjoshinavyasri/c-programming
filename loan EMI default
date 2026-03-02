@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+    int n,a,b;
+    scanf("%d",&n);
+    int i=0,x;
+    while (i<n){
+        scanf("%d",&x);
+        if (x==0){
+            a++;
+            if (a>b) {
+                b=a;
+            }
+        }
+        else {
+            a=0;
+        }
+        i++;
+    }
+    printf("longest default streak=%d\n",b);
+    return 0;
+}loan EMI
