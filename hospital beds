@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main(){
+    int n,capacity,x,a=0,b=0;
+    scanf("%d",&capacity);
+    scanf("%d",&n);
+    int i=0;
+    while (i<n){
+        scanf("%d",&x);
+        a=a+x;
+       if (a>capacity)
+           a=capacity;
+        if (a>(capacity*90)/100)
+            b++;
+        i++;
+    }
+    printf("final occupied beds=%d\n",a);
+   printf("critical hour=%d",b);
+    return 0;
+}
