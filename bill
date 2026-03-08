@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+if(a<=100)
+{
+    int b=a*1;
+    printf("%d",b);
+}
+else
+{
+    int b=a*2;
+    printf("%d",b);
+}
+    return 0;
+}
