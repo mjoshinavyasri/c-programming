@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main() {
+    int coursetype,category,fees;
+    scanf("%d%d",&coursetype,&category);
+    switch (coursetype) {
+        case 1:
+            if (category='R') {
+                fees=5000;
+            }
+            else if (category='S'){
+                fees=3000;
+    }
+    break;
+    case 2:
+            if (category='R') {
+                fees=9000;
+            }
+            else if (category='S'){
+                fees=7000;
+            }
+            break;
+}
+    printf("%d",fees);
+    return 0;
+}
