@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main() {
+    int days,fine;
+    scanf("%d",&days);
+if (days<=5){
+    fine=days*50;
+}
+    else if (days<=10) {
+        fine=days*100;
+    }
+    else {
+        fine=days*200;
+    }
+    printf("%d",fine);
+    return 0;
+}
