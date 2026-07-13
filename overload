@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+    int n,weight,x,a=0,b=0;
+    scanf("%d",&weight);
+    scanf("%d",&n);
+    int i=0;
+    while (i<n){
+        scanf("%d",&x);
+        if (weight<x+a)
+break;
+        a=a+x;
+        b++;
+        i++;
+    }
+    printf("passengers allowed=%d\n",b);
+    if (i<n)
+        printf("overload:yes");
+    else
+        printf("overload:no");
+    return 0;
+}
