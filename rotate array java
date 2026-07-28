@@ -1,0 +1,15 @@
+class Solution {
+    public void rotate(int[] arr, int k) {
+        int mid=k%arr.length;
+        reverse(arr, 0,arr.length-1);
+        reverse(arr, 0,mid-1);
+        reverse(arr,mid,arr.length-1);
+    }
+    public static void reverse(int[]arr,int start,int end){
+        while(start<end){
+            arr[start]^=arr[end];
+            arr[end]^=arr[start];
+            arr[start]^=arr[end];start++;end--;
+        }
+    }
+}
