@@ -1,0 +1,13 @@
+class Solution {
+    public int removeDuplicates(int[] arr) {
+        if(arr.length==0) return 0;
+        int index=0;
+        for(int jack=1;jack<arr.length;jack++){
+        if(arr[index]!=arr[jack]){
+            index++;
+            arr[index]=arr[jack];
+        }
+    }
+    return index+1;
+}
+}
