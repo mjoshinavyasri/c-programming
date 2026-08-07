@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class AdamNumber {
+    static long reverse(long n) {
+        long rev = 0;
+        while (n > 0) {
+            rev = rev * 10 + n % 10;
+            n /= 10;
+        }
+        return rev;
+    }
+    static boolean isAdam(long n) {
+        if (n % 10 == 0) return false;
+        long sq = n * n;
+        long rev = reverse(n);
+        long revSq = rev * rev;
+        long revSqOfN = reverse(sq);
+        return revSq == revSqOfN;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long num = sc.nextLong();
+        sc.close();
+
+        if (isAdam(num)) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+    }
+}
+5
